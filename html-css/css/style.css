@@ -153,15 +153,15 @@
         padding-left: 200px;
 }
 .grid__parent {
-    width: 80%;
+    
     display: grid;
     grid-template-rows: 400px 400px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 2fr;
         padding-left: 200px;
+        place-items: center;
     
 }
 .grid__parent__img-box1 {
-    width: 50%;
         padding-left: 200px;
         grid-column: 1/2;
         grid-row: 1/3;
@@ -176,10 +176,9 @@
     font-size: 15px;
 }
 .grid__parent__img-box2 {
-    width: 50%;
         padding-left: 80px;
         grid-column: 2/3;
-            grid-row: 2/3;
+            grid-row: 1/2;
             background-color: magenta;
 }
 .ttl-box2 {
@@ -190,10 +189,9 @@
     font-size: 14px;
 }
 .grid__parent__img-box3 {
-    width: 40%;
         padding-left: 80px;
         grid-column: 2/3;
-            grid-row: 1/2;
+            grid-row: 2/3;
             background-color:magenta;
 }
 .ttl-box3 {
