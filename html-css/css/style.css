@@ -1,0 +1,110 @@
+.header {
+    width: 100%
+    
+}
+.header img {
+    width: 20%;
+    margin: 30px 30px 0px;
+}
+.list {
+    font-weight: 300;
+    font-size: 23px;
+}
+.list:not(:last-child) {
+    margin-right: 30px;
+
+}
+.group {
+    display: flex;
+    justify-content: flex-end;
+    transform: translate(-20px, 0px);
+}
+.relative {
+    position: relative;
+    left: 700px;
+}
+.relative img {
+    width: 60%;
+}
+.absolute {
+    position: absolute;
+    top: 50px;
+    font-size: 70px;
+    color:mediumvioletred;
+    font-weight: bold;
+    font-family: 'Gorditas', cursive;
+    transform: translate(-430px, 100px);
+}
+.absolute span {
+    color:mediumturquoise;
+}
+.absolute-s {
+    position: absolute;
+    top: 185px;
+    font-size: 35px;
+    font-weight: 700;
+    color: mediumvioletred;
+    transform: translate(-430px, 230px);
+}
+.absolute-s span {
+    color: mediumturquoise;
+}
+.absolute-se {
+    transform: translate(-430px, -120px);
+    font-size: 23px;
+    font-weight: 600;
+}
+.main {
+    width: 100%;
+    background-color: white;
+}
+.news {
+    width: 100%
+    
+}
+.sub-news {
+    font-size: 13px;
+     font-family: 'Gorditas', cursive;
+     color: mediumvioletred;
+     font-weight: 0;
+     transform: translate(300px, 0px);
+}
+.title-news {
+    font-size: 18px;
+    transform: translate(300px, 0px);    
+}
+.ul-news {
+    text-align: center;
+    
+    padding-left: 0;
+}
+.li-news {
+    margin-left: 30px;
+    border-top: 1px solid gray;
+    list-style: none;
+    padding: 20px 10px;
+}
+.li-news span {
+    margin-right: 25px;
+    list-style: none;
+    background-color:mediumvioletred;
+    width: 3%;
+    color:aliceblue;
+    border-radius: 5px;
+    height: 20%;
+    padding: 5px;
+}
+.li-news:first-child {
+    border-top: 2px solid gray;
+}
+.li-news:last-child {
+    border-bottom: 1px solid gray;
+    position: relative;
+    border-bottom: 1px solid gray;
+}
+.li-news:last-child::after {
+    content: "";
+    position: absolute;
+    border: 1px solid gray;
+    top: 50px;
+}
