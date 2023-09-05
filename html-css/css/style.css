@@ -250,76 +250,112 @@ font-size: 25px;
         font-weight: 700;
 }
 .wrap {
-width: 100%;
+width: 90%;
     display: flex;
         justify-content: center;
-        margin: auto;
+        height: 40%;
+        background-color: aliceblue;          
+        
 }
 .card {
-    width: 37%;
-    height: 37%;
-            
+    width: 20%;
+    height: 25vh;
+    margin-left: 30px;
+    background-color: aqua;   
+        display: flex;
+            justify-content: center;
+           transform: translateX(-250px);
 }
 .wrap__card {
-    width: 60%;
-    height: 60%;
+    width: 30%;
+    height: 30%;
+    display: flex;
+        justify-content: center;
 }
 .text-box {
     width: 10%;
         height: 10%;
+    display: flex;
+        justify-content: center;
 }
 .text-box__secondary {
-    width: 7%;
-        height: 7%;
+    width: 8%;
+        height: 8%;
+    display: flex;
+        justify-content: center;
 }
 .card__date {
-
+    
 }
 .card2 {
-    width: 37%;
-        height: 37%;
-       
+    width: 20%;
+    height: 25vh;
+    margin-left: 30px;
+    background-color: aqua;
+    display: flex;
+        justify-content: center;
+        transform: translateX(-150px);
 }
 
 .wrap__card2 {
-    width: 60%;
-        height: 60%;
+    width: 30%;
+    height: 30%;
+    display: flex;
+        justify-content: center;
 }
 
 .text-box2 {
     width: 10%;
-        height: 10%;
+    height: 10%;
+    display: flex;
+        justify-content: center;
 }
 
 .text-box__secondary2 {
-    width: 7%;
-        height: 7%;
+    width: 8%;
+    height: 8%;
+    display: flex;
+        justify-content: center;
 }
 
 .card__date2 {
-
+    display: flex;
+        justify-content: center;
 }
 .card3 {
-    width: 37%;
-        height: 37%;
-       
+    width: 30vw;
+    height: 25vh;
+    
+    background-color: aqua;
+    display: flex;
+        justify-content: center;
+        margin-right: -290px;
+        margin-left: 100px;
+        transform: translateX(250px);
 }
 
 .wrap__card3 {
-    width: 155%;
-        height: 155%;
+    width: 30%;
+    height: 50%;
+    display: flex;
+        justify-content: center;
 }
 
 .text-box3 {
-    width: 10%;
-        height: 10%;
+    width: 60%;
+    height: 20vh;
+    display: flex;
+        justify-content: center;
 }
 
 .text-box__secondary3 {
-    width: 7%;
-        height: 7%;
+    width: 8%;
+    height: 8%;
+    display: flex;
+        justify-content: center;
 }
 
 .card__date3 {
-
+    display: flex;
+        justify-content: center;
 }
