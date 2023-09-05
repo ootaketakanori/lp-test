@@ -331,8 +331,7 @@ width: 90%;
     height: 25vh;
     
     background-color: aqua;
-    display: flex;
-        justify-content: center;
+    
         margin-right: -290px;
         margin-left: 100px;
         transform: translateX(250px);
@@ -341,29 +340,27 @@ width: 90%;
 .wrap__card3 {
     width: 100%;
     height: 60%;
-    display: flex;
-        justify-content: center;
+    
 }
 
 .text-box3 {
     width: 100%;
-    height: 30%;
-    display: flex;
-        justify-content: center;
+    height: 20%;
+    
         background-color: #db7093;
-        transform: translateY(150px);
+       
 }
 
 .text-box__secondary3 {
-    width: 308%;
-    height: 68%;
-    display: flex;
-        justify-content: center;
+    width: 100%;
+    height: 75%;
+    text-align: center;
         background-color: beige;
-        transform: translateY(150px);
+        
 }
 
 .card__date3 {
-    display: flex;
-        justify-content: center;
+    
+    height: 55%;
+    width: 100%;
 }
