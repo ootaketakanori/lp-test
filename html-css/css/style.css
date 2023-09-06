@@ -109,7 +109,7 @@
     width: 100%;
     margin-top: 130px;
     text-align: center;
-}  
+}
 .about-content {
     width: 80%;
 }
@@ -133,11 +133,11 @@
     font-size: 20px;
     font-weight: 600;
     padding: 50px 20px 20px;
-    
+
 }
 .service {
     width: 100%;
-   
+
 }
 .subttl-service {
     color: mediumvioletred;
@@ -159,7 +159,7 @@
     display: grid;
     grid-template-rows: 350px 350px;
     grid-template-columns: 2fr 2fr;
-    margin: auto;  
+    margin: auto;
 }
 .grid__parent__img-box1 {
         grid-column: 1/2;
@@ -177,7 +177,7 @@ font-size: 25px;
 }
 .box1 {
     font-size: 15px;
-     transform: translateX(40px);
+    transform: translateX(40px);
     margin-top: 30px;
     color:aliceblue;
     font-weight: 700;
@@ -221,13 +221,11 @@ font-size: 25px;
     width: 35%;
     margin-top: 30px;
     transform: translateX(40px);
-    
 }
 .ttl-box3 {
-    
     transform: translateY(-150px) translateX(260px);
-        color: aliceblue;
-        font-size: 25px;
+    color: aliceblue;
+    font-size: 25px;
 }
 .box3 {
     transform: translateY(-150px) translateX(260px);
@@ -238,51 +236,45 @@ font-size: 25px;
 }
 .blog {
     width: 100%;
+    margin-top: 450px;
+    
 }
 .subtitle-blog {
     color: mediumvioletred;
-        font-weight: bold;
-        font-family: 'Gorditas', cursive;
+    font-weight: bold;
+    font-family: 'Gorditas', cursive;
+    transform: translateX(450px) translateY(-150px);
+    font-size: 30px;
 }
-.title {
-    font-size: 25px;
-        margin-top: 10px;
-        font-weight: 700;
+.blog__title {
+    font-size: 45px;
+    
+    font-weight: 900;
+    transform: translateX(450px) translateY(-120px);
 }
+
 .wrap {
-width: 90%;
-display: flex;
-    justify-content: center;
-        height: 40%;
-        background-color: aliceblue;          
-        
-}
-.card {
-    width: 15%;
-    height: 25%;
+    width: 100%;
     display: flex;
         justify-content: center;
-    background-color: aqua;   
-        
-          
+        padding-left: 230px;
+        padding-right: 200px;
 }
-.wrap__card {
-    width: 100%;
-    height: 65%;
-   
+.card {
+    width: 90%;
+}
+.img-wrap__card {
+    width: 55%;
+}
+span {
+    width: 10%;
 }
 .text-box {
-    width: 70%;
-        height: 30%;
-    
-       
-        background-color:blanchedalmond;
+    width: 100%;
 }
 .text-box__secondary {
-    width: 38%;
-        height: 28%;
-    
+    width: 100%;
 }
 .card__date {
-
+    width: 100%;
 }
