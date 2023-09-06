@@ -256,13 +256,15 @@ font-size: 25px;
 .wrap {
     width: 100%;
     display: flex;
-        justify-content: center;
-        padding-left: 230px;
-        padding-right: 200px;
+    margin: auto 0;
+       
 }
 .card {
-    width: 90%;
+    width: 20%;
+   
 }
+
+
 .img-wrap__card {
     width: 55%;
 }
