@@ -3,7 +3,7 @@
 }
 .header {
     display: flex;
-    
+    padding-top: 15px;
     align-items: center;
     background-color:lightgoldenrodyellow;
     width: 100%
@@ -14,26 +14,33 @@
     width: 100%;
 }
 .title {
-
-    align-items: center;
-    width: 20%;
+    margin-bottom: 35px;    
+    margin-left: 15px;
+    width: 10%;
    
 }
 .title img {
-    width: 20%;
+    align-items: center;
+    margin-left: 15px;
+    width: 2%;
+
 }
 .list {
-    
+    margin-top: 10px;
     font-weight: 300;
     font-size: 18px;
 }
 .list:not(:last-child) {
-    margin-left: 40px;
+    margin-left: 25px;
 
 }
+.list:last-child {
+    margin-left: 20px;
+}
 .group {
-    display: flex;
-    justify-content: space-between;
+    display:flex;
+    float:right;
+    
 }
 .relative {
     position: relative;
