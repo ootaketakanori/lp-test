@@ -44,8 +44,11 @@
 }
 .relative {
     position: relative;
-    left: 700px;
+    
+    background-color: lavenderblush;
 }
+
+
 .relative img {
     width: 60%;
         transform: translateX(-250px);
@@ -92,11 +95,11 @@
      font-family: 'Gorditas', cursive;
      color: mediumvioletred;
      font-weight: lighter;
-     transform: translate(300px, 0px);
+     /*transform: translate(300px, 0px);*/
 }
 .title-news {
     font-size: 22px;
-    transform: translate(300px, 0px);    
+    /*transform: translate(300px, 0px);*/    
 }
 .ul-news {
     text-align: center;
@@ -246,7 +249,7 @@ font-size: 25px;
     font-size: 25px;
 }
 .box3 {
-    transform: translateY(-150px) translateX(260px);
+    /*transform: translateY(-150px) translateX(260px);*/
         color: aliceblue;
         font-size: 16px;
         font-weight: 600;
