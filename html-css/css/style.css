@@ -196,7 +196,7 @@
 }
 .service {
     width: 100%;
-
+    margin-top: 10px;
 }
 .subttl-service {
     /*position:absolute;
@@ -213,8 +213,8 @@
 }
 .ttl-service {
     font-size: 25px;
-    margin-top: 100px;
-    padding: 30px 30px 0px;
+    margin-top: 0px;
+    padding: 20px 30px 0px;
         padding-left: 200px;
 }
 .grid__parent {
@@ -340,40 +340,62 @@ font-size: 25px;
 }
 .blog {
     width: 100%;
-    margin-top: 450px;
+    margin-top: 100px;
+    margin-left: 0px;
     /*margin-left: 300px;*/
 }
 .subtitle-blog {
     color: mediumvioletred;
     font-weight: bold;
     font-family: 'Gorditas', cursive;
-    
-    font-size: 30px;
+    margin-top: 150px;
+        margin-left: 100px;
+    font-size: 20px;
 }
 .blog__title {
-    font-size: 45px;
-    
+    font-size: 35px;
+    margin-top: 20px;
+        margin-left: 80px;
     font-weight: 900;
     
 }
 
 .wrap {
-    width: 100%;
+    /*position: relative;*/
+    width: 90%;
     display: flex;
     margin: auto 0;
-       
-}
-.card {
-    width: 20%;
-    
-}
-.card:last-child {
-    
-    margin-right: 100px;
-    padding-right: 100px;
-    border: 100px;
-}
+        
+    }
 
+.card {
+    margin-left: 200px;
+    width: 20%;
+    padding: 0px 0px 0px 0px;
+}
+.card:last-of-type {
+    /*position: absolute;
+    top: 0px;
+    left: 0px;*/
+    margin-right: 30px;
+    width: 20%;
+}
+/*.card:not(:last-child) {
+    
+    margin-right: 10px;
+    padding-right: 10px;
+    border: 100px;
+}*/
+/*.card:first-of-type {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}*/
+/*.card:nth-of-type(2) {
+    position: absolute;
+        top: 0px;
+        left: 0px;
+}*/
 .img-wrap__card {
     width: 55%;
 }
