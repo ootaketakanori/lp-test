@@ -72,26 +72,37 @@
 }
 span-e {
     color:mediumturquoise;
+    width: 10%;
+    line-height: 60px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 .absolute-s {
     position: absolute;
     top: 235px;
     left: 220px;
     font-size: 20px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 10px 10px 10px;
     font-weight: 700;
     color: mediumvioletred;
     
 }
 span-s {
     color: mediumturquoise;
+    line-height: 10px;
+    font-size: 22px;
+    margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
 }
 .absolute-se {
     position: absolute;
+    top: 280px;
     left: 220px;
     bottom: 60px;
     font-size: 17px;
     font-weight: 200;
-    
+    padding: 0px 0px 50px 10px;
 }
 .main {
     margin-top: 50px;
@@ -182,7 +193,7 @@ span-s {
     font-size: 12px;
     font-weight: 600;
     padding: 50px 20px 20px;
-    width: 50%;
+    width: 48%;
     margin-top: 20px;
 
 }
@@ -402,10 +413,13 @@ font-size: 25px;
 
 }
 span {
-    top: 3px;
-    left: 22px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
     right: 0px;
-    width: 20%;
+    bottom: 0px;
+    width: 5%;
+    display: inline-block;
     margin: 0px 0px 0px 0px;
     background-color: #c71585;
     border-radius: 20px 0px 0px 0px;
@@ -433,9 +447,8 @@ span {
         padding: 50px 0px 0px 0px;
 }
 .card__date--coach {
-        display: inline-block;
-        text-align: right;
-        /*margin: 0px 0px 0px 0px;
-            padding: 0px 0px 10px 0px;*/
+            display: inline-block;
+        margin: 10px 0px 0px 35px;
+            padding: 10px 0px 10px 0px;
 
 }
