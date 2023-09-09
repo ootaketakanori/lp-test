@@ -70,7 +70,7 @@
     font-family: 'Gorditas', cursive;
     
 }
-.absolute span {
+span-e {
     color:mediumturquoise;
 }
 .absolute-s {
@@ -82,7 +82,7 @@
     color: mediumvioletred;
     
 }
-.absolute-s span {
+span-s {
     color: mediumturquoise;
 }
 .absolute-se {
@@ -351,6 +351,7 @@ font-size: 25px;
     margin-top: 150px;
         margin-left: 100px;
     font-size: 20px;
+    
 }
 .blog__title {
     font-size: 35px;
@@ -363,13 +364,15 @@ font-size: 25px;
 .wrap {
     width: 90%;
     display: flex;
+    justify-content: center;
     margin: 0 auto;
         
     }
 
 .card {
-    width: 20%;
-    /*padding: 0px 0px 0px 0px;*/
+    position: relative;
+    width: 28%;
+    padding: 0px 0px 40px 20px;
 }
 /*.card:last-of-type {
     /*position: absolute;
@@ -393,17 +396,46 @@ font-size: 25px;
         left: 0px;
 }*/
 .img-wrap__card {
-    width: 55%;
+    width: 100%;
+    /*height: 20%;*/
+    border-radius: 20px;
+
 }
 span {
-    width: 10%;
+    top: 3px;
+    left: 22px;
+    right: 0px;
+    width: 20%;
+    margin: 0px 0px 0px 0px;
+    background-color: #c71585;
+    border-radius: 20px 0px 0px 0px;
+    padding: 0px 0px 0px 13px;
+    color:ivory;
 }
 .text-box {
     width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
 }
 .text-box__secondary {
     width: 100%;
+    margin: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
 }
+/*span2 {
+    margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 30px;
+    }*/
+
 .card__date {
-    width: 100%;
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+        padding: 50px 0px 0px 0px;
+}
+.card__date--coach {
+        display: inline-block;
+        text-align: right;
+        /*margin: 0px 0px 0px 0px;
+            padding: 0px 0px 10px 0px;*/
+
 }
