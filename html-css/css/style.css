@@ -140,7 +140,7 @@ span-s {
     width: 80%;
         margin: 0px auto;
 }
-.li-news span {
+span-li-news {
     margin-right: 25px;
     list-style: none;
     background-color:mediumvioletred;
@@ -197,7 +197,7 @@ span-s {
     margin-top: 20px;
 
 }
-.p-about span {
+span-dx{
     width: 20px;
     margin-right: 170px;
 }
@@ -415,15 +415,15 @@ font-size: 25px;
 span {
     position: absolute;
     top: 0px;
-    left: 0px;
+    left: 20px;
     right: 0px;
-    bottom: 0px;
-    width: 5%;
+    bottom: 318px;
+    width: 17%;
     display: inline-block;
     margin: 0px 0px 0px 0px;
     background-color: #c71585;
     border-radius: 20px 0px 0px 0px;
-    padding: 0px 0px 0px 13px;
+    padding: 5px 0px 0px 13px;
     color:ivory;
 }
 .text-box {
@@ -450,5 +450,35 @@ span {
             display: inline-block;
         margin: 10px 0px 0px 35px;
             padding: 10px 0px 10px 0px;
+}
+.company {
+    width: 95%;
+    margin: 100px auto;
+}
+.sub.title-e {
+        
+        font-size: 16px;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        color: mediumvioletred;
+            font-weight: bold;
+            font-family: 'Gorditas', cursive;
+}
+.main.title-company {
+    font-size: 16px;
+}
+.company {
+
+}
+.company-ta {
+
+}
+.company-tr {
+
+}
+.company-th {
+
+}
+.company-td {
 
 }
