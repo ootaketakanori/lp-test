@@ -500,7 +500,7 @@ margin: 20px 0px 0px 100px;
    position: relative;
    text-align: center;
     width: 100%;
-    margin-top: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 }
 .footer__img-1 {
@@ -526,44 +526,63 @@ margin: 20px 0px 0px 100px;
     padding: 0px 0px 0px 0px;
     width: 51%;
 }
-.footer__img__left.title {
+.footer__img__left-title {
                 color: aliceblue;
     position: absolute;
-        top: 0px;
-            left: 520px;
+        top: 120px;
+            left: 170px;
             right: 0px;
-            bottom: 0px;
+            bottom: 100px;
             color: aliceblue;
             width: 30%;
-                font-size: 20px;
                 font-weight: bold;
+                    display: inline-block;
+                    text-align: left;
     margin: 0px 0px 0px 0px;
-    font-size: 18px;
-        padding: 10px 0px 0px 10px;
+    font-size: 25px;
+        padding: 20px 0px 0px 10px;
         z-index: 30;
 }
-.footer__img__right.title {
+.footer__img__right-title {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 130px;
+    left: 530px;
     right: 0px;
-    bottom: 0px;
+    bottom: 150px;
     color:aliceblue;
-    font-size: 20px;
+    display: inline-block;
+    font-size: 24px;
     font-weight: bold;
     z-index: 30;
     margin: 0px 0px 0px 0px;
-        font-size: 18px;
         padding: 10px 0px 0px 10px;
         z-index: 30;
 }
 .title-footer {
-    margin: 0px 0px 0px 0px;
+    position: absolute;
+    top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+    margin: 0px 0px 150px 0px;
         font-size: 18px;
-        padding: 450px 0px 0px 10px;
+        padding: 330px 0px 0px 10px;
 }
 .mail {
+    position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
     margin: 0px 0px 0px 0px;
     background: linear-gradient(90deg,#ff1493, #c71585);
         padding: 10px 0px 0px 10px;
+      
+       
+}
+.footer{
+    margin-top: 100px;
+}
+.footer-small {
+
 }
