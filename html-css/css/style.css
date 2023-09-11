@@ -455,30 +455,92 @@ span {
     width: 95%;
     margin: 100px auto;
 }
-.sub.title-e {
+.sub-title-e {
         
-        font-size: 16px;
-        margin: 0px 0px 0px 0px;
+        font-size: 11px;
+        margin: 0px 0px 7px 100px;
         padding: 0px 0px 0px 0px;
         color: mediumvioletred;
             font-weight: bold;
             font-family: 'Gorditas', cursive;
 }
-.main.title-company {
-    font-size: 16px;
+.main-title-company {
+    font-size: 24px;
+    margin: 0px 0px 13px 100px;
+        padding: 0px 0px 0px 0px;
 }
-.company {
 
-}
 .company-ta {
-
+ width: 75%;
+ text-align:left;
+margin: 20px 0px 0px 100px;
+    padding: 0px 0px 0px 0px;
 }
 .company-tr {
+    width: 75%;
+    margin: 0px 0px 0px 0px;
 
+        padding: 0px 0px 0px 0px;
 }
 .company-th {
-
+    width: 30%;
+        margin: 0px 0px 0px 0px;
+    
+        padding: 10px 0px 0px 10px;
 }
 .company-td {
-
+    width: 45%;
+        margin: 0px 0px 0px 0px;
+        color:dimgrey;
+        font-size: 16px;
+        font-weight: 900;
+        padding: 0px 0px 0px 10px;
+}
+.mailzone {
+    position: relative;
+    width: 100%;
+    margin-top: 0px 0px 0px 0px;
+    padding: 200px 0px 200px 0px;
+}
+.footer__img-1 {
+    position: absolute;
+    top: 0px;
+    left: 520px;
+    right: 0px;
+    bottom: 0px;
+    margin: 0px 0px 0px 10px;
+    line-height: 1.0em;
+        padding: 10px 0px 0px 30px;
+    width: 48%;
+}
+.footer__img-2 {
+    position: absolute;
+    top: -7px;
+    left: -41px;
+    right: 50px;
+    bottom: 0px;
+    margin: 0px 0px 0px 0px;
+    line-height: 1.0em;
+    padding: 10px 0px 0px 10px;
+    width: 49%;
+}
+.footer__img__left.title {
+    margin: 0px 0px 0px 0px;
+    font-size: 18px;
+        padding: 10px 0px 0px 10px;
+}
+.footer__img__right.title {
+    margin: 0px 0px 0px 0px;
+        font-size: 18px;
+        padding: 10px 0px 0px 10px;
+}
+.title-footer {
+    margin: 0px 0px 0px 0px;
+        font-size: 13px;
+        padding: 310px 0px 0px 10px;
+}
+.mail {
+    margin: 0px 0px 0px 0px;
+    background: linear-gradient(90deg,#ff1493, #c71585);
+        padding: 10px 0px 0px 10px;
 }
