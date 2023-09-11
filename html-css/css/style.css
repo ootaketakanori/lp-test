@@ -497,47 +497,70 @@ margin: 20px 0px 0px 100px;
         padding: 0px 0px 0px 10px;
 }
 .mailzone {
-    position: relative;
+   position: relative;
+   text-align: center;
     width: 100%;
     margin-top: 0px 0px 0px 0px;
-    padding: 200px 0px 200px 0px;
+    padding: 0px 0px 0px 0px;
 }
 .footer__img-1 {
+    z-index: 10;
     position: absolute;
-    top: 0px;
-    left: 520px;
+    top: 25px;
+    left: 0px;
     right: 0px;
     bottom: 0px;
-    margin: 0px 0px 0px 10px;
-    line-height: 1.0em;
-        padding: 10px 0px 0px 30px;
-    width: 48%;
+    margin: 0px 0px 300px 0px;
+    /*line-height: 1.0em;*/
+        padding: 0px 0px 10px 0px;
+    width: 51%;
 }
 .footer__img-2 {
     position: absolute;
-    top: -7px;
-    left: -41px;
-    right: 50px;
+    top: 25px;
+    left: 500px;
+    right: 0px;
     bottom: 0px;
     margin: 0px 0px 0px 0px;
-    line-height: 1.0em;
-    padding: 10px 0px 0px 10px;
-    width: 49%;
+    z-index: 10;
+    padding: 0px 0px 0px 0px;
+    width: 51%;
 }
 .footer__img__left.title {
+                color: aliceblue;
+    position: absolute;
+        top: 0px;
+            left: 520px;
+            right: 0px;
+            bottom: 0px;
+            color: aliceblue;
+            width: 30%;
+                font-size: 20px;
+                font-weight: bold;
     margin: 0px 0px 0px 0px;
     font-size: 18px;
         padding: 10px 0px 0px 10px;
+        z-index: 30;
 }
 .footer__img__right.title {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    color:aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 30;
     margin: 0px 0px 0px 0px;
         font-size: 18px;
         padding: 10px 0px 0px 10px;
+        z-index: 30;
 }
 .title-footer {
     margin: 0px 0px 0px 0px;
-        font-size: 13px;
-        padding: 310px 0px 0px 10px;
+        font-size: 18px;
+        padding: 450px 0px 0px 10px;
 }
 .mail {
     margin: 0px 0px 0px 0px;
