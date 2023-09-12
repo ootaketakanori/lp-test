@@ -602,20 +602,26 @@ margin: 20px 0px 0px 100px;
     color:#ff1493;
     font-weight: 500;
     font-size: 45px;
-}
+}    
 .footer {
-    margin-top: 100px;
-    margin: auto;
-    display: inline-block;
-    padding: 10px 0px 0px 10px;
-    margin: 0px 0px 0px 0px;
+        position: relative;
+    left: 0px;
+        bottom: 44px;
+        right: 0px;
+        top: 250px;
+
     z-index: 30;
     width: 100%
 }
 .footer-small {
-    display: inline-block;
-        margin: auto;
-    padding: 10px 0px 0px 10px;
+    position: absolute;
+        left: 326px;
+        bottom: 0px;
+        right: 0px;
+        top: 310px;
+    /*display: inline-block;
+        margin: auto;*/
+    padding: 20px 0px 20px 10px;
     margin: 0px 0px 0px 0px;
         z-index: 30;
         width: 40%;
