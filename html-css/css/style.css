@@ -5,7 +5,6 @@
     display: flex;
     padding-top: 15px;
     align-items: center;
-    background-color:lightgoldenrodyellow;
     width: 100%
     
 }
@@ -47,7 +46,6 @@
 .relative {
     position: relative;
     
-    background-color: lavenderblush;
 }
 
 
@@ -57,8 +55,8 @@
         left: 50px;
 }*/
 .img__relative {
-    margin-left: 455px;
-    width:55%;
+    margin-left: 40%;
+    width:60%;
 }
 .absolute {
     position: absolute;
@@ -183,10 +181,12 @@ span-li-news {
     width: 44%;
     float: right;
     padding: 0% 1% 0%;
-    margin-top: 0px;
+    margin-top:  0%
 }
 .img-about img {
     width: 100%;
+        margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
 }
 .p-about {
     line-height: 30px;
@@ -195,6 +195,7 @@ span-li-news {
     padding: 50px 20px 20px;
     width: 48%;
     margin-top: 20px;
+    margin: 0% 0% 0% 0%;
 
 }
 span-dx{
