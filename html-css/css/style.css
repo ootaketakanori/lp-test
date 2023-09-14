@@ -61,7 +61,7 @@
 .absolute {
     position: absolute;
     top: 50px;
-    left: 220px;
+    left: 270px;
     font-size: 45px;
     color:mediumvioletred;
     font-weight:lighter;
@@ -78,7 +78,7 @@ span-e {
 .absolute-s {
     position: absolute;
     top: 235px;
-    left: 220px;
+    left: 270px;
     font-size: 20px;
     margin: 0px 0px 0px 0px;
     padding: 10px 10px 10px 10px;
@@ -96,7 +96,7 @@ span-s {
 .absolute-se {
     position: absolute;
     top: 280px;
-    left: 220px;
+    left: 270px;
     bottom: 60px;
     font-size: 17px;
     font-weight: 200;
@@ -209,6 +209,8 @@ span-dx{
 .service {
     width: 100%;
     margin-top: 10px;
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
 }
 .subttl-service {
     /*position:absolute;
@@ -250,10 +252,10 @@ span-dx{
 }
 .ttl-box1 {
     position: absolute;
-        top: 260px;
+        top: 59%;
         right: 0px;
         bottom: 0px;
-        left: 30px;
+        left: 20%;
     font-size: 20px;
 margin-left: 150px;
 margin-right: -50px;
@@ -264,10 +266,10 @@ font-size: 25px;
 }
 .box1 {
     position: absolute;
-        top: 280px;
-        right: 0px;
-        bottom: 0px;
-        left: 50px;
+        top: 65%;
+        right: 0%;
+        bottom: 0%;
+        left: 20%;
     font-size: 15px;
     margin-top: 30px;
     color:aliceblue;
@@ -278,17 +280,17 @@ font-size: 25px;
 }
 .grid__parent__img-box1 img {
     position: absolute;
-    top: 50px;
+    top: 10%;
         right: 0px;
         bottom: 0px;
-        left: 160px;
+        left: 40%;
     margin-top: 20px;
     line-height: 20px;
                 padding-left: 40px;
                 margin-left: 40px;
                 margin: 0px 0px 0px 0px;
                 padding: 0px 0px 0px 0px;
-                    width: 35%;
+                    width: 25%;
 }
 .grid__parent__img-box2 {
     position: relative;
@@ -312,7 +314,7 @@ font-size: 25px;
     left: 0px;
     margin: 0px 0px 0px 0px;
         padding: 0px 0px 0px 0px;
-    width: 27%;
+    width: 21%;
     margin-top: 30px;
             padding-left: 0px;
 
@@ -320,7 +322,7 @@ font-size: 25px;
 .ttl-box2 {
     position: absolute;
     top: 44px;
-    left: 30px;
+    left: 90px;
     right: 0px;
     font-size: 20px;
                             width: 40%;
@@ -334,7 +336,7 @@ font-size: 25px;
 .box2 {
     position: absolute;
     top: 90px;
-        left: 180px;
+        left: 240px;
         right: 0px;
         padding: 0px 0px 0px;
     font-size: 14px;
@@ -350,19 +352,19 @@ font-size: 25px;
             background-color:#d8bfd8;
                     padding-left: 0px;
                     padding: 0px 0px 0px 0px;
-                        margin: 0px 0px 60px 0px;
+                        margin: 19px 0px 60px 0px;
                         width: 100%;
 }
 .grid__parent__img-box3 img {
         
-    width: 27%;
+    width: 21%;
     margin-top: 30px;
             padding-left: 0px;
 }
 .ttl-box3 {
         position: absolute;
     top: 40px;
-        left: 170px;
+        left: 203px;
         right: 0px;
 
 
@@ -374,7 +376,7 @@ font-size: 25px;
     /*transform: translateY(-150px) translateX(260px);*/
         position: absolute;
     top: 70px;
-        left: 170px;
+        left: 200px;
         right: 0px;
 
 
@@ -388,7 +390,10 @@ font-size: 25px;
     width: 100%;
     margin-top: 100px;
     margin-left: 0px;
-    /*margin-left: 300px;*/
+    margin-left: 0px;
+    margin-bottom: 0px;
+    padding: 0% 0% 4% 0%;
+    background-color:#f5f5f5;
 }
 .subtitle-blog {
     color: mediumvioletred;
@@ -455,11 +460,12 @@ span {
     bottom: 318px;
     width: 17%;
     display: inline-block;
-    margin: 0px 0px 30px 0px;
+    margin: 0px 0px 110px 0px;
     background-color: #c71585;
     border-radius: 20px 0px 0px 0px;
-    padding: 5px 0px 30px 13px;
+    padding: 4px 0px 30px 3px;
     color:ivory;
+    text-align: center;
 }
 .text-box {
     width: 100%;
@@ -471,6 +477,8 @@ span {
     width: 100%;
     margin: 10px 0px 0px 0px;
         padding: 0px 0px 0px 0px;
+        font-weight: bold;
+        font-size: 20px;
 }
 /*span2 {
     margin: 0px 0px 0px 0px;
@@ -490,10 +498,31 @@ span {
             padding: 10px 0px 10px 0px;
             font-size: 10px;
                                 font-weight: 900;
+                                text-align: right;
+}
+.page {/*
+    position: absolute;
+    top: 465%;
+    left: 40%;
+    bottom: 0%;
+    right: 0%;*/
+    margin: 2% 0% 0% 43%;
+        padding: 1% 1% 1% 1%;
+    width: 12%;
+    color:#ff1493;
+    border: solid 1px #ff1493;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 900;
+    background-color: white;
 }
 .company {
     width: 95%;
     margin: 100px auto;
+    margin: 5% 0% 8% 0%;
+                padding: 10px 10px 10px 40px;
 }
 .sub-title-e {
         
@@ -519,19 +548,21 @@ margin: 20px 0px 0px 100px;
 .company-tr {
     width: 75%;
     margin: 0px 0px 0px 0px;
-
+            border: solid 1px gray;
         padding: 0px 0px 0px 0px;
 }
 .company-th {
-    width: 30%;
+    width: 20%;
         margin: 0px 0px 0px 0px;
-    
+        background-color: gainsboro;
+        border: solid 1px gray;
         padding: 10px 0px 0px 10px;
 }
 .company-td {
     width: 45%;
         margin: 0px 0px 0px 0px;
         color:dimgrey;
+                border: solid 1px gray;
         font-size: 16px;
         font-weight: 900;
         padding: 0px 0px 0px 10px;
