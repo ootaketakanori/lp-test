@@ -272,7 +272,7 @@ font-size: 25px;
 }
 .box1 {
     position: absolute;
-        top: 65%;
+        top: 67%;
         right: 0%;
         bottom: 0%;
         left: 27%;
@@ -285,23 +285,23 @@ font-size: 25px;
 }
 .grid__parent__img-box1 img {
     position: absolute;
-    top: 10%;
+    top: 7%;
         right: 0%;
         bottom: 0%;
-        left: 40%;
+        left: 32%;
    
     line-height: 20px;
                
                
                
             
-                    width: 25%;
+                    width: 32%;
 }
 .grid__parent__img-box2 {
     position: relative;
     grid-column: 2/3;
             grid-row: 1/2;
-            top: 24%;
+            top: 0%;
             right: 0%;
             bottom: 0%;
             left: 0%;
@@ -315,20 +315,20 @@ font-size: 25px;
 }
 .grid__parent__img-box2 img {
     position: absolute;
-    top: 0%;
+    top: 16%;
     right: 0%;
     bottom: 0%;
     left: 0%;
        
-    width: 21%;
+    width: 26%;
    
             
 
 }
 .ttl-box2 {
     position: absolute;
-    top: 44px;
-    left: 200px;
+    top: 54px;
+    left: 250px;
     right: 0px;
     font-size: 20px;
                             width: 40%;
@@ -340,7 +340,7 @@ font-size: 25px;
 .box2 {
     position: absolute;
     top: 90px;
-        left: 200px;
+        left: 250px;
         right: 0px;
        
     font-size: 14px;
@@ -366,17 +366,17 @@ font-size: 25px;
 .grid__parent__img-box3 img {
     position: absolute;
         top: 40px;
-        left: 203px;
+        left: 0px;
         right: 0px;
         bottom: 0px;
-    width: 21%;
+    width: 26%;
    
            
 }
 .ttl-box3 {
         position: absolute;
     top: 40px;
-        left: 203px;
+        left: 253px;
         right: 0px;
                 bottom: 0px;
 
@@ -388,7 +388,7 @@ font-size: 25px;
     /*transform: translateY(-150px) translateX(260px);*/
         position: absolute;
     top: 70px;
-        left: 200px;
+        left: 253px;
         right: 0px;
         bottom: 0px;
 
@@ -470,7 +470,7 @@ span {
     top: 0px;
     left: 20px;
     right: 0px;
-    bottom: 318px;
+    bottom: 498px;
     width: 17%;
     display: inline-block;
     margin: 0px 0px 110px 0px;
@@ -591,9 +591,12 @@ margin: 20px 0px 0px 210px;
 }
 .mailzone {
    position: relative;
+top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
    text-align: center;
     width: 100%;
-    margin: 50px 0px 50px 0px;
     padding: 10px 0px 10px 0px;
     line-height: 20px;
 
@@ -605,7 +608,6 @@ margin: 20px 0px 0px 210px;
     left: 0px;
     right: 0px;
     bottom: 0px;
-    margin: 0px 0px 300px 0px;
     /*line-height: 1.0em;*/
     padding: 0px 0px 10px 0px;
     width: 50%;
@@ -616,7 +618,6 @@ margin: 20px 0px 0px 210px;
     left: 50%;
     right: 0px;
     bottom: 0px;
-    margin: 0px 0px 0px 0px;
     z-index: 10;
     padding: 0px 0px 0px 0px;
     width: 50%;
@@ -648,19 +649,17 @@ margin: 20px 0px 0px 210px;
     font-size: 40px;
     font-weight: bold;
     z-index: 30;
-    margin: 0px 0px 0px 0px;
     padding: 10px 0px 30px 10px;
     z-index: 30;
 }
 .title-footer-1 {
     position: absolute;
-    top: 1150%;
+    top: 550%;
     left: 0%;
-    right: 0px;
-    bottom: 0px;
-    margin: 20px 0px 150px 0px;
+    right: 0%;
+    bottom: 0%;
     font-size: 18px;
-    padding: 125px 0px 300px 0px;
+    padding: 2% 0% 30% 0%;
     /*display: inline-block;*/
         z-index: 30;
         width: 100%;
@@ -668,9 +667,9 @@ margin: 20px 0px 0px 210px;
 .mail-1 {
     position: absolute;
     top: 2800%;
-    right: 0px;
+    right: 0%;
         left: 45%;
-    bottom: 0px;
+    bottom: 0%;
     /*margin: 0px 0px 0px 0px;*/
     background: linear-gradient(90deg,#ff1493, #c71585);
     padding: 10px 10px 30px 10px;
@@ -708,14 +707,13 @@ margin: 20px 0px 0px 210px;
 }
 .footer-small {
     position: absolute;
-        left: 38%;
+        left: 41%;
         bottom: 0px;
         right: 0px;
         top: 360px;
     /*display: inline-block;
         margin: auto;*/
     padding: 10px 0px 20px 10px;
-    margin: 0px 0px 0px 0px;
         z-index: 30;
         width: 40%;
 }
