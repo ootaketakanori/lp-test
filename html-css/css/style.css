@@ -539,49 +539,60 @@ span {
     background-color: white;
 }
 .company {
-    width: 95%;
+    display: flex;
+        justify-content: center;
+        position:relative;
+        top: 0%;
+            left: 0%;
+            bottom: 0%;
+            right: 0%;
+    width: 70%;
     margin: 100px auto;
-    margin: 5% 0% 8% -5%;
-                padding: 10px 10px 10px 40px;
-                
+                padding: 70px 10px 30px 40px;
+                text-align: center;
 }
 .sub-title-e {
-        
+        position: absolute;
+        top: 0%;
+            left: 0%;
+            bottom: 0%;
+            right: 60%;
         font-size: 11px;
-        margin: 0px 0px 7px 210px;
         padding: 0px 0px 0px 0px;
         color: mediumvioletred;
             font-weight: bold;
             font-family: 'Gorditas', cursive;
 }
 .main-title-company {
-    font-size: 24px;
-    margin: 0px 0px 13px 210px;
+    
+    position: absolute;
+        top: 10%;
+        left: 0%;
+        bottom: 0%;
+        right: 56%;
+        font-size: 24px;
         padding: 0px 0px 0px 0px;
 }
 
 .company-ta {
- width: 75%;
+
+    width: 75%;
  text-align:left;
-margin: 20px 0px 0px 210px;
     padding: 0px 0px 0px 0px;
 }
 .company-tr {
     width: 75%;
-    margin: 0px 0px 0px 0px;
             border: solid 1px gray;
         padding: 0px 0px 0px 0px;
 }
 .company-th {
     width: 20%;
-        margin: 0px 0px 0px 0px;
         background-color: gainsboro;
         border: solid 1px gray;
         padding: 10px 0px 0px 10px;
 }
 .company-td {
     width: 45%;
-        margin: 0px 0px 0px 0px;
         color:dimgrey;
                 border: solid 1px gray;
         font-size: 16px;
@@ -594,6 +605,7 @@ top: 0%;
     left: 0%;
     right: 0%;
     bottom: 0%;
+    padding: 0% 0% 10% 0%;
    text-align: center;
     width: 100%;
     line-height: 20px;
@@ -625,7 +637,7 @@ top: 0%;
 .footer__img__left-title {
     color: aliceblue;
     position: absolute;
-    top: 310%;
+    top: 110%;
     left: 19%;
     
     bottom: 100%;
@@ -643,7 +655,7 @@ top: 0%;
 }
 .footer__img__right-title {
     position: absolute;
-    top: 300%;
+    top: 110%;
     left: 50%;
         right: 0%;
         bottom: 0%;
@@ -657,10 +669,10 @@ top: 0%;
 .mail-1 {
     box-shadow: 1px 7px 0px 4px #9e7696;
     position: absolute;
-        left: 15%;
+        left: 39%;
         bottom: 0%;
         right: 0%;
-        top: 24%;
+        top: 424%;
         padding: 30px 10px 50px 10px;
         background: linear-gradient(90deg, #ff1493, #c71585);
         border-radius: 40px;
@@ -684,10 +696,10 @@ top: 0%;
 .mail-1::before {
     content: "";
     position: absolute;
-        left: 15%;
+        left: 10%;
         bottom: 0%;
         right: 0%;
-        top: 24%;
+        top: 28%;
         background: url(../img/mail.svg) no-repeat;
         background-size: cover;
             width: 30px;
@@ -696,10 +708,10 @@ top: 0%;
 }
 .title-footer-1 {
     position: absolute;
-        left: 7%;
+        left: 0%;
         bottom: 0%;
         right: 0%;
-        top: 1424%;
+        top: 324%;
         font-size: 14px;
         font-size: 18px;
             padding: 2% 0% 20% 0%;
@@ -713,7 +725,7 @@ top: 0%;
         bottom: 44%;
         right: 0%;
         top: 250%;
-
+    padding: 11% 0% 0% 0%;
     z-index: 30;
     width: 100%
 }
@@ -722,9 +734,10 @@ top: 0%;
         left: 35%;
         bottom: 0%;
         right: 0%;
-        top: 350%;
+        top: 410%;
     /*display: inline-block;
         margin: auto;*/
         z-index: 30;
-        width: 40%;
+        width: 35%;
+            padding: 0% 0% 3% 0%;
 }
