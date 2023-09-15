@@ -624,8 +624,8 @@ top: 0px;
 .footer__img__left-title {
     color: aliceblue;
     position: absolute;
-    top: 150px;
-    left: 260px;
+    top: 130px;
+    left: 210px;
     right: 0px;
     bottom: 100px;
     color: aliceblue;
@@ -639,8 +639,8 @@ top: 0px;
 }
 .footer__img__right-title {
     position: absolute;
-    top: 160px;
-    left: 930px;
+    top: 140px;
+    left: 540px;
     right: 0px;
     bottom: 150px;
     color:aliceblue;
@@ -653,7 +653,7 @@ top: 0px;
 }
 .title-footer-1 {
     position: absolute;
-    top: 3150%;
+    top: 1750%;
     left: -3%;
     right: 0%;
     bottom: 0%;
@@ -665,7 +665,7 @@ top: 0px;
 }
 .mail-1 {
     position: absolute;
-    top: 3800%;
+    top: 2500%;
     right: 0%;
         left: 40%;
     bottom: 0%;
@@ -723,7 +723,7 @@ top: 0px;
         left: 35%;
         bottom: 0px;
         right: 0px;
-        top: 700px;
+        top: 350px;
     /*display: inline-block;
         margin: auto;*/
     padding: 10px 0px 20px 10px;
