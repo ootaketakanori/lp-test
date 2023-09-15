@@ -590,43 +590,44 @@ margin: 20px 0px 0px 210px;
 }
 .mailzone {
    position: relative;
-top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
+top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
    text-align: center;
     width: 100%;
-    padding: 10px 0px 10px 0px;
     line-height: 20px;
 
 }
 .footer__img-1 {
     z-index: 10;
     position: absolute;
-    top: 25px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
+    top: 25%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
     /*line-height: 1.0em;*/
     padding: 0px 0px 10px 0px;
     width: 50%;
+    z-index: 10;
 }
 .footer__img-2 {
     position: absolute;
-    top: 25px;
+    top: 25%;
     left: 50%;
-    right: 0px;
-    bottom: 0px;
+    right: 0%;
+    bottom: 0%;
     z-index: 10;
     padding: 0px 0px 0px 0px;
     width: 50%;
+        z-index: 10;
 }
 .footer__img__left-title {
     color: aliceblue;
     position: absolute;
-    top: 680%;
+    top: 310%;
     left: 19%;
-    right: 0%;
+    
     bottom: 100%;
     color: aliceblue;
     width: 30%;
@@ -634,63 +635,48 @@ top: 0px;
     /*display: inline-block;*/
     text-align: left;
     font-size: 40px;
-    padding: 20px 0px 30px 10px;
+    font-weight: bold;
+        /*display: inline-block;*/
+        text-align: left;
+        font-size: 40px;
     z-index: 30;
 }
 .footer__img__right-title {
     position: absolute;
-    top: 140px;
-    left: 550px;
-    right: 0px;
-    bottom: 150px;
+    top: 300%;
+    left: 50%;
+        right: 0%;
+        bottom: 0%;
     color:aliceblue;
-    /*display: inline-block;*/
+    font-weight: 700;
     font-size: 40px;
-    font-weight: bold;
-    z-index: 30;
-    padding: 10px 0px 30px 10px;
-    z-index: 30;
-}
-.title-footer-1 {
-    position: absolute;
-    top: 1750%;
-    left: -3%;
-    right: 0%;
-    bottom: 0%;
-    font-size: 18px;
-    padding: 2% 0% 20% 0%;
-    /*display: inline-block;*/
-        z-index: 30;
-        width: 100%;
+            z-index: 30;
+            font-size: 40px;
+                font-weight: bold;
 }
 .mail-1 {
+    box-shadow: 1px 7px 0px 4px #9e7696;
     position: absolute;
-    top: 2500%;
-    right: 0%;
-        left: 40%;
-    bottom: 0%;
-    /*margin: 0px 0px 0px 0px;*/
-    background: linear-gradient(90deg,#ff1493, #c71585);
-    padding: 30px 10px 50px 10px;
-    /*display: inline-block;*/
-    z-index: 30;
-    width: 230px;
-    /*text-align: center;*/
-    /*margin: 0 auto;*/
-    border-radius: 40px;
-    color:floralwhite;
-    font-weight: 700;
-    font-size: 20px;
-        box-shadow: 1px 7px 0px 4px #9e7696;
+        left: 15%;
+        bottom: 0%;
+        right: 0%;
+        top: 24%;
+        padding: 30px 10px 50px 10px;
+        background: linear-gradient(90deg, #ff1493, #c71585);
+        border-radius: 40px;
+        font-weight: 700;
+            font-size: 20px;
+            color: floralwhite;
+            width: 230px;
 }
 .mail-1::after {
     content: "|";
     display:block;
     position:absolute;
-    left: 0px;
-    bottom: 0px;
-    right: 0px;
-    top: -50px;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    top: -50%;
     color:#ff1493;
     font-weight: 500;
     font-size: 45px;
@@ -698,22 +684,35 @@ top: 0px;
 .mail-1::before {
     content: "";
     position: absolute;
-        left: 15px;
-        bottom: 0px;
-        right: 0px;
-        top: 24px;
+        left: 15%;
+        bottom: 0%;
+        right: 0%;
+        top: 24%;
         background: url(../img/mail.svg) no-repeat;
         background-size: cover;
             width: 30px;
             height: 30px;
 
 }
+.title-footer-1 {
+    position: absolute;
+        left: 7%;
+        bottom: 0%;
+        right: 0%;
+        top: 1424%;
+        font-size: 14px;
+        font-size: 18px;
+            padding: 2% 0% 20% 0%;
+            /*display: inline-block;*/
+            z-index: 30;
+            width: 100%;
+}
 .footer {
         position: relative;
-    left: 0px;
-        bottom: 44px;
-        right: 0px;
-        top: 250px;
+    left: 0%;
+        bottom: 44%;
+        right: 0%;
+        top: 250%;
 
     z-index: 30;
     width: 100%
@@ -721,12 +720,11 @@ top: 0px;
 .footer-small {
     position: absolute;
         left: 35%;
-        bottom: 0px;
-        right: 0px;
-        top: 350px;
+        bottom: 0%;
+        right: 0%;
+        top: 350%;
     /*display: inline-block;
         margin: auto;*/
-    padding: 10px 0px 20px 10px;
         z-index: 30;
         width: 40%;
 }
