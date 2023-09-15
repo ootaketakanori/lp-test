@@ -624,10 +624,10 @@ top: 0px;
 .footer__img__left-title {
     color: aliceblue;
     position: absolute;
-    top: 130px;
-    left: 210px;
-    right: 0px;
-    bottom: 100px;
+    top: 680%;
+    left: 19%;
+    right: 0%;
+    bottom: 100%;
     color: aliceblue;
     width: 30%;
     font-weight: bold;
@@ -640,7 +640,7 @@ top: 0px;
 .footer__img__right-title {
     position: absolute;
     top: 140px;
-    left: 540px;
+    left: 550px;
     right: 0px;
     bottom: 150px;
     color:aliceblue;
