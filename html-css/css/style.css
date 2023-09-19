@@ -184,8 +184,8 @@ span-li-news {
     margin-top:  0%
 }
 .img-about img {
-    width: 50%;
-        margin: 6% 0% 0% 0%;
+    width: 62%;
+        margin: 1% 0% 10% 0%;
     padding: 0% 0% 0% 0%;
 }
 .p-about {
@@ -652,6 +652,7 @@ top: 0%;
         text-align: left;
         font-size: 40px;
     z-index: 30;
+    text-decoration: none;
 }
 .footer__img__right-title {
     position: absolute;
@@ -665,6 +666,7 @@ top: 0%;
             z-index: 30;
             font-size: 40px;
                 font-weight: bold;
+                text-decoration: none;
 }
 .mail-1 {
     box-shadow: 1px 7px 0px 4px #9e7696;
